@@ -4,9 +4,7 @@ const path = require("path");
 const fs = require("fs");
 const DEFAULT_PORT = 9000;
 
-port = process.argv[2] || DEFAULT_PORT;
-
-console.log("?", process.cwd());
+port = process.env.PORT || DEFAULT_PORT;
 
 
 http.createServer(function (request, response) {
