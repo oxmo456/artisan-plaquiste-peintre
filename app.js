@@ -6,7 +6,6 @@ const DEFAULT_PORT = 9000;
 
 port = process.env.PORT || DEFAULT_PORT;
 
-
 http.createServer(function (request, response) {
     const uri = url.parse(request.url).pathname;
     var filePath = path.join(process.cwd(), "public", uri);
@@ -15,10 +14,6 @@ http.createServer(function (request, response) {
             if (fs.statSync(filePath).isDirectory()) {
                 filePath = path.join(filePath, "index.html");
             }
-
-            console.log(filePath);
-
-
             fs.readFile(filePath, "binary", function (error, file) {
                 if (error) {
                     response.writeHead(500, {"Content-Type": "text/plain"});
