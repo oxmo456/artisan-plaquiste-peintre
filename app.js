@@ -13,7 +13,7 @@ http.createServer(function (request, response) {
     fs.exists(filePath, function (exists) {
         if (exists) {
             if (fs.statSync(filePath).isDirectory()) {
-                filePath = path.join(filePath, "public", "index.html");
+                filePath = path.join(filePath, "index.html");
             }
 
             console.log(filePath);
