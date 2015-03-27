@@ -1,0 +1,91 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.artisan-plaquiste-peintre {
+    padding-bottom: 5%;
+}
+
+.artisan-plaquiste-peintre .glyphicon-ok {
+    color: #9DE079;
+}
+
+.artisan-plaquiste-peintre .logo {
+    width: 100%;
+    padding: 5%;
+    max-width: 914px;
+}
+
+.artisan-plaquiste-peintre h2 {
+    text-transform: uppercase;
+    padding-bottom: 2%;
+}
+
+.artisan-plaquiste-peintre img {
+    width: 100%;
+}
+
+.artisan-plaquiste-peintre .page-header p {
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.artisan-plaquiste-peintre ul.skills li,
+.artisan-plaquiste-peintre ul.guarantees li {
+    font-weight: 300;
+    padding-bottom: 2%;
+}
+
+.artisan-plaquiste-peintre ul.guarantees {
+    font-size: 1.5em;
+}
+
+.artisan-plaquiste-peintre ul.guarantees li span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.artisan-plaquiste-peintre ul.guarantees li span.glyphicon {
+    font-size: 1.8em;
+    max-width: 20%;
+}
+
+.artisan-plaquiste-peintre ul.guarantees li span:last-child {
+    padding-left: 15px;
+    max-width: 80%;
+}
+
+.artisan-plaquiste-peintre ul.skills li:last-child,
+.artisan-plaquiste-peintre ul.guarantees li:last-child {
+    font-weight: 300;
+    padding-bottom: 0;
+}
+
+.artisan-plaquiste-peintre footer {
+    border-top: 1px solid #eee;
+    margin-top: 2%;
+    padding-top: 2%;
+}
+
+
+.artisan-plaquiste-peintre nav ul li.active a {
+    background-color: #79BDE0;
+}
+
+.artisan-plaquiste-peintre nav ul li.active a:hover,
+.artisan-plaquiste-peintre nav ul li a:hover {
+    background-color: #E1ECF7;
+}
+
+.artisan-plaquiste-peintre a {
+    color: #79BDE0;
+
+}
+
+.artisan-plaquiste-peintre.mes-realisations figure {
+    padding-bottom: 2%;
+}
+
+
